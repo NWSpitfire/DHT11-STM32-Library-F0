@@ -10,7 +10,7 @@
 #ifndef MK_DHT11_H_
 #define MK_DHT11_H_
 
-#include "stm32l0xx.h"
+#include "stm32f0xx_hal.h"
 #include "main.h"
 #include "gpio.h"
 
