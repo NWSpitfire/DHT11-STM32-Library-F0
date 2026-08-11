@@ -167,7 +167,7 @@ uint8_t readDHT11(dht11_t *dht)
 //	if(genParity == parityVal)
 
 	dht->temperature = tempVal;
-	dht->humidty = humVal;
+	dht->humidity = humVal;
 
 
 	return 1;
