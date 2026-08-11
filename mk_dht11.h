@@ -25,7 +25,7 @@ struct _dht11_t{
 	uint16_t pin; ///GPIO pin ex:GPIO_PIN_2
 	TIM_HandleTypeDef *htim; /// timer for measure time ex:htim3
 	uint8_t temperature; ///Temperature value
-	uint8_t humidty; ///humidity value
+	uint8_t humidity; ///humidity value
 };
 typedef struct _dht11_t dht11_t;
 
