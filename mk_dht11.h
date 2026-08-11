@@ -12,7 +12,7 @@
 
 #include "stm32f0xx_hal.h"
 #include "main.h"
-#include "gpio.h"
+#include "stm32f0xx_hal_gpio.h"
 
 #define OUTPUT 1
 #define INPUT 0
